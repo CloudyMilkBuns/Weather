@@ -1,0 +1,140 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://github.com/CloudyMilkBuns/picture/blob/main/pexels-maoriginalphotography-1485894.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+
+    text-align: center;
+    max-width: 600px;
+    margin-top: 360px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+}
+
+.search-bar input {
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: transparent;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #020025;
+}
+
+/* Additional Search Button Styling */
+.secondary-search-btn {
+    background-color: #001223d8;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 15px; /* Adding space between search bar and button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.secondary-search-btn:hover {
+    background-color: #000f27b7;
+}
+
+
+
+.weather-details {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 7, 21, 0.733);
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+.weather-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+/* Left Section Styling */
+
+.left p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+/* Right Section Styling */
+.right p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+#temp {
+    
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.go-back-btn {
+    background-color: #001223d8;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.go-back-btn:hover {
+    background-color: #000f27b7;
+}
+
+.weather-icon {
+    width: 70px;  /* Set the icon size */
+    height: 70px;
+    margin-top: 1px;
+     /* Space between the icon and the temperature */
+}
